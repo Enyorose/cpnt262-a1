@@ -5,7 +5,7 @@
 body {
     font-family: 'Titillium Web', sans-serif;   
     color: whitesmoke;
-    font-size: 2 rem;
+    
 }
 header {
     width: 100%;
@@ -31,6 +31,10 @@ header {
 .logo {
     height: 4rem;
     width: 4rem;
+    
+}
+.cool-logo {
+    color: whitesmoke;
 }
 .navbars {
     position: fixed;
@@ -39,6 +43,9 @@ header {
     transition: 0.8s;
     top: 4rem;
     right: 4rem;
+}
+.navbars:hover{
+    transform: rotate(180deg);
 }
 .navlinks a{
     list-style-type: none;
@@ -50,6 +57,10 @@ ul li{
     list-style-type: none;
     padding: .5rem;
     font-size: 1rem;
+}
+ul li:hover{
+    font-size: 1.4rem;
+    transition: .4s;
 }
 .navclose {
     display: none;
