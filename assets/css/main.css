@@ -26,7 +26,7 @@ header {
     justify-content: center;
     align-items: center;
     border-radius: 40% 0 0 60%;
-    transition: 0.08s;
+    transition: 0.8s;
 }
 .logo {
     height: 4rem;
@@ -56,4 +56,7 @@ ul li{
 }
 .change {
     right: 0;
+}
+.change .navbars {
+    display: none;
 }
