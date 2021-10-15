@@ -29,13 +29,16 @@ header {
     transition: 0.8s;
 }
 .logo {
-    height: 4rem;
-    width: 4rem;
+    height: 6rem;
+    width: 6rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
     
 }
-.cool-logo {
-    color: whitesmoke;
+.cool-logo * {
+    fill: whitesmoke;
 }
+
 .navbars {
     position: fixed;
     cursor: pointer;
